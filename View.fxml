@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="223.0" layoutY="53.0" text="Mini Project">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtA" layoutX="54.0" layoutY="145.0" prefHeight="51.0" prefWidth="62.0" text=" ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtB" layoutX="211.0" layoutY="145.0" prefHeight="51.0" prefWidth="62.0" />
+      <TextField fx:id="txtC" layoutX="367.0" layoutY="143.0" prefHeight="51.0" prefWidth="62.0" />
+      <Label layoutX="133.0" layoutY="155.0" text="X^2  +">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="289.0" layoutY="155.0" text="X     +">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="451.0" layoutY="153.0" text="=      0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="206.0" text="Solutions :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblX1" layoutX="167.0" layoutY="246.0" text="X_1   =  ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblX2" layoutX="164.0" layoutY="284.0" text="X_2    =  ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="handleCalculate" layoutX="239.0" layoutY="330.0" mnemonicParsing="false" text="Result">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="112.0" fitWidth="112.0" layoutX="34.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="112.0" fitWidth="112.0" layoutX="29.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="112.0" fitWidth="112.0" layoutX="60.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ITC_Logo.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="112.0" layoutX="411.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@GTR_Logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
