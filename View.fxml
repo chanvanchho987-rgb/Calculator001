@@ -10,12 +10,12 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
-      <Label layoutX="223.0" layoutY="53.0" text="Mini Project">
+      <Label layoutX="234.0" layoutY="53.0" text="Calculator">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <TextField fx:id="txtA" layoutX="24.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+      <TextField fx:id="txtA" layoutX="24.0" layoutY="145.0" prefHeight="20.0" prefWidth="105.0" text=" ">
          <font>
             <Font size="23.0" />
          </font>
@@ -25,7 +25,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="300.0" layoutY="156.0" text="X">
+      <Label fx:id="parametor_2" layoutX="300.0" layoutY="156.0" text="X">
          <font>
             <Font size="20.0" />
          </font>
@@ -40,17 +40,17 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="lblX1" layoutX="167.0" layoutY="223.0" text="X_1   =  ">
+      <Label fx:id="lblX1" layoutX="167.0" layoutY="223.0" text="X_1   ">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="lblX2" layoutX="167.0" layoutY="253.0" text="X_2    =  ">
+      <Label fx:id="lblX2" layoutX="167.0" layoutY="281.0" text="X_2  ">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button fx:id="handleCalculate" layoutX="260.0" layoutY="297.0" mnemonicParsing="false" text="Result">
+      <Button fx:id="Calculator_" layoutX="260.0" layoutY="338.0" mnemonicParsing="false" onAction="#Push_calculator" text="Result">
          <font>
             <Font size="20.0" />
          </font>
@@ -77,20 +77,40 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <TextField fx:id="txtA1" layoutX="187.0" layoutY="146.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+      <TextField fx:id="txtB" layoutX="187.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
          <font>
             <Font size="23.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtA11" layoutX="346.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+      <TextField fx:id="txtC" layoutX="346.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
          <font>
             <Font size="23.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtA111" layoutX="481.0" layoutY="146.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+      <TextField fx:id="txt_answer" blendMode="GREEN" layoutX="481.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
          <font>
             <Font size="23.0" />
          </font>
       </TextField>
+      <TextField fx:id="txt_root_1" blendMode="RED" layoutX="248.0" layoutY="211.0" prefHeight="30.0" prefWidth="105.0" text=" ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_root_2" blendMode="BLUE" layoutX="248.0" layoutY="271.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <Label layoutX="215.0" layoutY="223.0" text="=">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="281.0" text="=">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
