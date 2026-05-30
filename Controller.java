@@ -18,15 +18,24 @@ public class Controller {
     private Label parametor_1;
 
     @FXML
+    private Label parametor_2;
+
+    @FXML
     private TextField txtA;
 
     @FXML
-    private TextField txtA1;
+    private TextField txtB;
 
     @FXML
-    private TextField txtA11;
+    private TextField txtC;
 
     @FXML
-    private TextField txtA111;
+    private TextField txt_answer;
+
+    @FXML
+    private TextField txt_root_1;
+
+    @FXML
+    private TextField txt_root_2;
 
 }
