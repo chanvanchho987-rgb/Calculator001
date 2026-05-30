@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 public class Controller {
 
     @FXML
-    private Button handleCalculate;
+    private Button Calculator_;
 
     @FXML
     private Label lblX1;
@@ -40,7 +40,7 @@ public class Controller {
     private TextField txt_root_2;
 
     @FXML
-    void handleCalculate(ActionEvent event) {
+    void Push_calculator(ActionEvent event) {
 
     }
 
