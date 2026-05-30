@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 public class Controller {
 
     @FXML
-    private Button Calculator_;
+    private Button Calculator;
 
     @FXML
     private Label lblX1;
