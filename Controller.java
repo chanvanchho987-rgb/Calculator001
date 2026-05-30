@@ -41,11 +41,6 @@ public class Controller {
 
     @FXML
     void Push_calculator(ActionEvent event) {
-
-    }
-
-}
-void calculateRoots(ActionEvent event) {
         try {
             double a = Double.parseDouble(txtA.getText());
             double b = Double.parseDouble(txtB.getText());
@@ -79,4 +74,6 @@ void calculateRoots(ActionEvent event) {
             lblX2.setText("");
         }
     }
+
 }
+
