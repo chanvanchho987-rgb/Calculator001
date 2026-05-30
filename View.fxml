@@ -8,52 +8,49 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <Label layoutX="223.0" layoutY="53.0" text="Mini Project">
          <font>
             <Font size="25.0" />
          </font>
       </Label>
-      <TextField fx:id="txtA" layoutX="54.0" layoutY="145.0" prefHeight="51.0" prefWidth="62.0" text=" ">
+      <TextField fx:id="txtA" layoutX="24.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
          <font>
             <Font size="23.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtB" layoutX="211.0" layoutY="145.0" prefHeight="51.0" prefWidth="62.0" />
-      <TextField fx:id="txtC" layoutX="367.0" layoutY="143.0" prefHeight="51.0" prefWidth="62.0" />
-      <Label layoutX="133.0" layoutY="155.0" text="X^2  +">
+      <Label fx:id="parametor_1" layoutX="133.0" layoutY="155.0" text="X^2">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="289.0" layoutY="155.0" text="X     +">
+      <Label layoutX="300.0" layoutY="156.0" text="X">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="451.0" layoutY="153.0" text="=      0">
+      <Label layoutX="460.0" layoutY="155.0" text="=">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label layoutX="54.0" layoutY="206.0" text="Solutions :">
+      <Label layoutX="54.0" layoutY="200.0" text="Solutions :">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="lblX1" layoutX="167.0" layoutY="246.0" text="X_1   =  ">
+      <Label fx:id="lblX1" layoutX="167.0" layoutY="223.0" text="X_1   =  ">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Label fx:id="lblX2" layoutX="164.0" layoutY="284.0" text="X_2    =  ">
+      <Label fx:id="lblX2" layoutX="167.0" layoutY="253.0" text="X_2    =  ">
          <font>
             <Font size="20.0" />
          </font>
       </Label>
-      <Button fx:id="handleCalculate" layoutX="239.0" layoutY="330.0" mnemonicParsing="false" text="Result">
+      <Button fx:id="handleCalculate" layoutX="260.0" layoutY="297.0" mnemonicParsing="false" text="Result">
          <font>
             <Font size="20.0" />
          </font>
@@ -70,5 +67,30 @@
             <Image url="@GTR_Logo.jpg" />
          </image>
       </ImageView>
+      <Label layoutX="172.0" layoutY="154.0" text="+">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="319.0" layoutY="153.0" prefHeight="30.0" prefWidth="14.0" text="+">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtA1" layoutX="187.0" layoutY="146.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtA11" layoutX="346.0" layoutY="145.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtA111" layoutX="481.0" layoutY="146.0" prefHeight="50.0" prefWidth="105.0" text=" ">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </TextField>
    </children>
 </AnchorPane>

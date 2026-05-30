@@ -15,12 +15,18 @@ public class Controller {
     private Label lblX2;
 
     @FXML
+    private Label parametor_1;
+
+    @FXML
     private TextField txtA;
 
     @FXML
-    private TextField txtB;
+    private TextField txtA1;
 
     @FXML
-    private TextField txtC;
+    private TextField txtA11;
+
+    @FXML
+    private TextField txtA111;
 
 }
