@@ -18,7 +18,7 @@ public class Main extends Application {
 
         stage.setTitle("Calculator");
 
-        stage.getIcons().add(new javafx.scene.image.Image(getClass().getResourceAsStream("Photo/itc-cambodia.jpg")));
+        stage.getIcons().add(new javafx.scene.image.Image(getClass().getResourceAsStream("Photo/ITC_Logo.jpg")));
 
         stage.show();
     }
