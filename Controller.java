@@ -47,8 +47,8 @@ public class Controller {
             double c = Double.parseDouble(txtC.getText());
 
             if (a == 0) {
-                txt_root_1.setText("x_1 = Invalid (A cannot be 0)");
-                txt_root_2.setText("");
+                txt_root_1.setText("A != 0");
+                txt_root_2.setText("Invalid");
                 return;
             }
 
@@ -57,21 +57,21 @@ public class Controller {
             if (discriminant > 0) {
                 double x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
                 double x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
-                txt_root_1.setText(String.format("x_1 = %.2f", x1));
-                txt_root_2.setText(String.format("x_2 = %.2f", x2));
+                txt_root_1.setText(String.format("%.2f", x1));
+                txt_root_2.setText(String.format("%.2f", x2));
             } else if (discriminant == 0) {
                 double x = -b / (2 * a);
-                txt_root_1.setText(String.format("x_1 = %.2f", x));
-                txt_root_2.setText("x_2 = (Same as x_1)");
+                txt_root_1.setText(String.format("%.2f", x));
+                txt_root_2.setText(String.format("%.2f", x));
             } else {
                 double realPart = -b / (2 * a);
                 double imaginaryPart = Math.sqrt(-discriminant) / (2 * a);
-                txt_root_1.setText(String.format("x_1 = %.2f + %.2fi", realPart, imaginaryPart));
-                txt_root_2.setText(String.format("x_2 = %.2f - %.2fi", realPart, imaginaryPart));
+                txt_root_1.setText(String.format("%.2f + %.2fi", realPart, imaginaryPart));
+                txt_root_2.setText(String.format("%.2f - %.2fi", realPart, imaginaryPart));
             }
         } catch (NumberFormatException e) {
-            txt_root_1.setText("Error: Enter valid numbers.");
-            txt_root_2.setText("");
+            txt_root_1.setText("Error");
+            txt_root_2.setText("Error");
         }
     }
 
